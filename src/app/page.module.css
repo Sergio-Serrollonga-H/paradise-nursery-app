@@ -14,6 +14,7 @@
   padding: 80px;
   gap: 64px;
   font-family: var(--font-geist-sans);
+  background: url("https://www.baltimoremagazine.com/wp-content/uploads/2021/10/Gott-Efni-6928.jpg");
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,7 +62,7 @@
   gap: 16px;
 }
 
-.ctas a {
+.ctas {
   appearance: none;
   border-radius: 128px;
   height: 48px;
@@ -76,9 +77,10 @@
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
+  max-width: 250px;
 }
 
-a.primary {
+.primary {
   background: var(--foreground);
   color: var(--background);
   gap: 8px;
@@ -107,7 +109,7 @@ a.secondary {
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
-  a.primary:hover {
+  .primary:hover {
     background: var(--button-primary-hover);
     border-color: transparent;
   }

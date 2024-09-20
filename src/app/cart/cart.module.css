@@ -1,0 +1,62 @@
+.page {
+  --button-secondary-hover: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  min-height: 100svh;
+  font-family: var(--font-geist-sans);
+}
+
+.cartOverview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.goBackBtn {
+  min-width: 100px;
+  padding: 10px;
+  border: 2px solid;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.productItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border: 2px solid;
+  flex: 0 48%;
+}
+
+.productsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.qtySelector {
+  display: flex;
+  gap: 4px;
+}
+
+.qtySelector div,
+.deleteBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  min-width: 40px;
+  cursor: pointer;
+}

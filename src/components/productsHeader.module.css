@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 1.5em;
+  border-bottom: 2px solid;
+  width: 100%;
+  align-items: center;
+}
+
+.cartBtn {
+  min-width: 100px;
+  padding: 10px;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+.cartBtn:hover {
+  background: var(--button-secondary-hover);
+  color: black;
+}
